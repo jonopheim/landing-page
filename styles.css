@@ -53,6 +53,8 @@ a {
 
 img {
     width: 200px;
+    height: 200px;
+    border-radius: 16px;
 }
 
 .left-container {
@@ -60,10 +62,11 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
-    gap: 10px;
+    gap: 25px;
     font-size: 18px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #dimension {
@@ -71,4 +74,95 @@ img {
     font-weight: bold;
 }
 
+button {
+    border: none;
+    border-radius: 16px;
+    background: rgb(43, 55, 219);
+    color: white;
+    padding: 8px 60px;
+    font-size: 16px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.two-body {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 30px;
+}
+
+.team {
+    max-width: 200px;
+
+}
+
+.name {
+    font-size: 20px;
+    margin: 6px;
+    font-weight: 600;
+}
+
+.text{
+   text-align: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.story{
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    margin: 120px 200px;
+}
+
+.dark {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px;
+    margin: 80px;
+    border-radius: 16px;
+}
+
+.dark-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.dark-title {
+    font-size: 18px;
+    font-weight: bold;
+}
 
