@@ -41,7 +41,7 @@ a {
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 30px;
-    margin: 0px 20px;
+    margin: 40px 20px;
 }
 
 .right-container {
@@ -91,6 +91,7 @@ button {
 .two {
     display: flex;
     flex-direction: column;
+    margin: 120px;
 }
 
 .two-title {
@@ -166,3 +167,11 @@ button {
     font-weight: bold;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
